@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/dr_house_hospital-.iml" filepath="$PROJECT_DIR$/.idea/dr_house_hospital-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/the_accountancy/the_accountancy.iml" filepath="$PROJECT_DIR$/the_accountancy/the_accountancy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/the_diagnose_room/the_diagnose_room.iml" filepath="$PROJECT_DIR$/the_diagnose_room/the_diagnose_room.iml" />
+      <module fileurl="file://$PROJECT_DIR$/the_hospital_admission/the_hospital_admission.iml" filepath="$PROJECT_DIR$/the_hospital_admission/the_hospital_admission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/the_nursery/the_nursery.iml" filepath="$PROJECT_DIR$/the_nursery/the_nursery.iml" />
+    </modules>
+  </component>
+</project>
