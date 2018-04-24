@@ -12,9 +12,6 @@ import java.util.Map;
 @Controller
 public class DrHouse {
     private DrHouseParser drHouseParser;
-    private Patient patient;
-
-
 
     public DrHouse(DrHouseParser drHouseParser) {
         this.drHouseParser = drHouseParser;
