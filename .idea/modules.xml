@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/doctorhausui/doctorhausui.iml" filepath="$PROJECT_DIR$/doctorhausui/doctorhausui.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dr_house_hospital-.iml" filepath="$PROJECT_DIR$/.idea/dr_house_hospital-.iml" />
       <module fileurl="file://$PROJECT_DIR$/the_accountancy/the_accountancy.iml" filepath="$PROJECT_DIR$/the_accountancy/the_accountancy.iml" />
       <module fileurl="file://$PROJECT_DIR$/the_diagnose_room/the_diagnose_room.iml" filepath="$PROJECT_DIR$/the_diagnose_room/the_diagnose_room.iml" />

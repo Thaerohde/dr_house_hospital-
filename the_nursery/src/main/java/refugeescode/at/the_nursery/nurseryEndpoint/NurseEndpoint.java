@@ -2,14 +2,13 @@ package refugeescode.at.the_nursery.nurseryEndpoint;
 
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 import refugeescode.at.the_nursery.model.Patient;
 import refugeescode.at.the_nursery.persistance.NurseRepository;
 import refugeescode.at.the_nursery.service.Treatment;
+
+import java.util.List;
 
 
 @RestController
@@ -41,5 +40,9 @@ public class NurseEndpoint {
         //cleaning
         restTemplate.postForEntity(accountancyurl, patients, Patient.class);
         return patients;
+    }
+    @GetMapping
+    List<Patient> get(){
+        return nurseRepository.findAll();
     }
 }

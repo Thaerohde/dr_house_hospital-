@@ -21,7 +21,7 @@ public class Treatment {
                 .filter(e -> e != null)
                 .collect(Collectors.joining(" "));
         if (treatment.isEmpty()) {
-            return null;
+            return "Aspreen";
         }
         return treatment;
     }
